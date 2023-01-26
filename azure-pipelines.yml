@@ -71,6 +71,6 @@ stages:
         ConnectionType: 'AzureRM'
         azureSubscription: 'Azure subscription 1(3bcbef65-d438-443a-a429-bd049e2703ca)'
         appType: 'webAppLinux'
-        ebAppName: 'Huxley-CHG'
+        WebAppName: 'Huxley-CHG'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
         RuntimeStack: 'DOTNETCORE|6.0'
